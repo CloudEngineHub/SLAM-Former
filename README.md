@@ -70,9 +70,8 @@ python slam/visualize_results.py \
 
 ### Training Data
 * **Links:**
-  * [Hugging Face](https://huggingface.co/datasets/KevinConnorLee/SLF/tree/main) (ARKitScenes, MVS-Synth, ScanNet)
+  * [Hugging Face](https://huggingface.co/datasets/KevinConnorLee/SLF/tree/main) (ARKitScenes, MVS-Synth, ScanNet, ScanNet++, Blended-MVS, MegaDepth)
   * [Hugging Face](https://huggingface.co/datasets/KevinConnorLee/preprocessed_Hypersim/tree/main) (Hypersim)
-  * ⏳ [Hugging Face](https://huggingface.co/datasets/KevinConnorLee/SLF/tree/main) (ScanNet++, Blended-MVS, MegaDepth) - *Coming soon*
 
 ### Checkpoint List
 * [Hugging Face](https://huggingface.co/Jarrome/SLAM-Former) — recommended to use `--target_size 518` for inference.
