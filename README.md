@@ -51,12 +51,15 @@ Prepare a folder containing your image sequence, then run:
 
 ```bash
 python slam/demo.py \
-    --ckpt_path ckpt/checkpoint.pth.model \
+    --ckpt_path .ckpt/checkpoint-10.pth.model \
     --image_folder /path/to/your/images/ \
-    --output_dir /output/result \
+    --output_dir ./output/result \
     --target_size 518 \
     --retention_ratio 0.5
 ```
+
+For evaluation, please use 100% kv: ```--retention_ratio 1```
+
 
 ### Visualization
 
@@ -74,7 +77,7 @@ python slam/visualize_results.py \
   * [Hugging Face](https://huggingface.co/datasets/KevinConnorLee/preprocessed_Hypersim/tree/main) (Hypersim)
 
 ### Checkpoint List
-* [Hugging Face](https://huggingface.co/Jarrome/SLAM-Former) — recommended to use `--target_size 518` for inference.
+* [v1](https://huggingface.co/Jarrome/SLAM-Former) — recommended to use `--target_size 518` for inference.
 
 
 
