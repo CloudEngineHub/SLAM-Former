@@ -18,6 +18,7 @@ IIIS, Tsinghua University
 ```
 
 ### Updates
+* [June 18, 2026] SLAM-Former was accepted to ECCV 2026.
 * [May 11, 2026] Added two ConvHead checkpoint variants. `V1.1.pth` is recommended with `--target_size 518`; `V1.1-long.pth` is recommended with `--target_size 224`. `V1.1-long.pth` is trained with scaled sequence lengths and supports longer-sequence inference. ConvHead mainly fixes the grid artifact issue. Thanks to Pi3X for the insight.
 * [Mar 11, 2026] Released training code. See the [training branch](https://github.com/Tsinghua-MARS-Lab/SLAM-Former/tree/training) for details.
 * [Mar 4, 2026] Released SLAM code with KV pruning available.
